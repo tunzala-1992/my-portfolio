@@ -1,0 +1,167 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+  width: 100%;
+  min-height: 1px;
+}
+
+#my-name {
+  color: chocolate;
+}
+
+h1 {
+  font-size: 50px;
+}
+.about-me {
+  font-size: 20px;
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+  padding-top: 5%;
+}
+.about-me img {
+  max-width: 100%;
+  padding-top: 5%;
+}
+.about-me-ext {
+  font-size: 20px;
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+  padding-top: 10%;
+  color: rgb(66, 45, 45);
+  text-align: justify;
+}
+.about-me-ext img {
+  max-width: 100%;
+  padding-top: 1%;
+}
+.button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, orange, darkorange);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+}
+.project {
+  font-size: 30px;
+  text-align: center;
+}
+.work-area {
+  width: calc(33% - 2em);
+  min-height: 440px;
+  overflow: hidden;
+  float: left;
+  margin: 2em 1em;
+  color: rgb(58, 43, 43);
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 10px;
+  padding: 1em;
+  box-sizing: border-box;
+}
+.work {
+  text-align: justify;
+  padding: 5%;
+}
+.work-area img {
+  max-height: 240px;
+  width: 100%;
+  border-radius: 10px;
+}
+#card {
+  box-sizing: border-box;
+}
+.box {
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  background: url(images/workpic1.png) no-repeat center / cover;
+  border-radius: 1em;
+  padding: 2em 5%;
+  margin: 0 auto;
+}
+.inner-box {
+  position: relative;
+  min-height: 10em;
+}
+#text {
+  color: #fff;
+  font-size: 3em;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#btn {
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  background-color: darkorange;
+  margin-top: 5%;
+  max-height: 40%;
+  width: 20%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.contacts-info {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 150px;
+}
+.contacts-info img {
+  padding-left: 15px;
+  width: 5%;
+}
+footer {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10;
+  margin-left: 1000px;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#latest {
+  color: chocolate;
+}
+.skills {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 5px;
+}
+.skill-area {
+  min-height: 540px;
+  color: rgb(41, 39, 39);
+}
